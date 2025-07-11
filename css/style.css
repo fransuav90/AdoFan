@@ -1,6 +1,6 @@
 /* -------------------- Fondo y texto general -------------------- */
 body, html {
-  background-color: #0d0d0d !important;
+  background-color: #1b1b1d !important;
   color: #e0e0e0;
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
@@ -18,7 +18,7 @@ body, html {
 
 /* -------------------- Navegación -------------------- */
 .navbar {
-  background-color: #1a1a2e;
+  background-color: #1b1b1d;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,40 +42,7 @@ body, html {
 }
 
 /* -------------------- Sidebars -------------------- */
-.sidebar-left,
-.sidebar-right {
-  background-color: #1a1a2e;
-  padding: 1rem;
-  border-radius: 10px;
-  color: #e0e0e0;
-}
 
-.sidebar-left h5,
-.sidebar-right h5 {
-  border-bottom: 1px solid #3d5afe;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.sidebar-left ul,
-.sidebar-right ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.sidebar-left li a,
-.sidebar-right li a {
-  color: #ccc;
-  text-decoration: none;
-  display: block;
-  padding: 0.4rem 0;
-  transition: color 0.3s ease;
-}
-
-.sidebar-left li a:hover,
-.sidebar-right li a:hover {
-  color: #9dabff;
-}
 
 /* -------------------- Contenido principal -------------------- */
 main.col-md-8 {
@@ -96,7 +63,7 @@ section,
 .ado-anniv,
 .ado-vinilos,
 .ado-albums {
-  background-color: #121212 !important;
+  background-color: #1b1b1d !important;
   border-radius: 12px;
   margin-bottom: 2rem;
   padding: 2rem;
@@ -106,7 +73,7 @@ section,
 /* -------------------- Carrusel -------------------- */
 .carousel,
 .carousel-item {
-  background-color: #0d0d0d;
+  background-color: #1b1b1d;
 }
 
 .carousel-inner img {
@@ -118,7 +85,7 @@ section,
 /* -------------------- Imágenes de productos -------------------- */
 .img-fluid {
   border-radius: 10px;
-  border: 2px solid #333;
+  border: 2px solid #1b1b1d;
   transition: transform 0.3s ease;
 }
 
@@ -143,7 +110,7 @@ section,
 /* -------------------- Footer -------------------- */
 footer,
 .footer {
-  background-color: #1a1a2e;
+  background-color: #1b1b1d;
   color: #e0e0e0;
   padding: 2rem 1rem;
 }
@@ -164,4 +131,7 @@ footer,
 .col-md-4,
 .col-md-6 {
   background-color: transparent !important;
+}
+.titulo {
+   color: #cccccc;
 }
